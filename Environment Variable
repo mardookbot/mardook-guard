@@ -1,4 +1,0 @@
-WG_PASSWORD    → breakingbad
-SS_PASSWORD    → breakingbad
-SS_METHOD      → aes-128-gcm   (یا chacha20-ietf-poly1305)
-UUID           → d8f1a2c3-4e5d-6789-b0c1-d2e3f4a5b6c7
