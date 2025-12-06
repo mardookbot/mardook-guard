@@ -1,6 +1,5 @@
 FROM alpine:latest
-
-RUN apk add --no-cache wireguard-tools openresolv iptables shadowsocks-libev nginx curl qrencode bash
+RUN apk update && apk add --no-cache wireguard-tools openresolv iptables shadowsocks-libev v2ray-plugin nginx curl bash
 
 # کپی فایل‌ها
 COPY entrypoint.sh /entrypoint.sh
